@@ -37,6 +37,11 @@ namespace Tyuiu.IvashkinaKE.Sprint3.Task0.V25
             Console.WriteLine("Старт шага = " + startValue);
             Console.WriteLine("Конец шага = " + stopValue);
 
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+
+
             Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(value, startValue, stopValue));
             Console.ReadKey();
 

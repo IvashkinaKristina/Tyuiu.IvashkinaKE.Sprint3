@@ -38,7 +38,7 @@ namespace Tyuiu.IvashkinaKE.Sprint3.Task1.V27
             Console.WriteLine("Конец шага = " + stopValue);
 
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                        *");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Произведение ряда = " + ds.GetMultiplySeries(value, startValue, stopValue));
